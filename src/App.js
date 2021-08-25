@@ -1,12 +1,12 @@
-import './App.css';
-import Alcometer from './components/Alcometer';
+import "./App.css";
+import Alcometer from "./components/Alcometer";
+import { Container } from "@material-ui/core";
 const App = () => {
   return (
-    <div className="App">
-     
-    <Alcometer />
-    </div>
+    <Container>
+      <Alcometer />
+    </Container>
   );
-}
+};
 
 export default App;
